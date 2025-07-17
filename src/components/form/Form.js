@@ -34,6 +34,7 @@ export default function InterestForm() {
     return (
         <form className="spidr-form" onSubmit={handleSubmit}>
             <h2>Spidr Airfryer Challenge</h2>
+            <h2>Aaron Marrs</h2>
             <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
             <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
             <input name="phone" placeholder="Phone Number" value={formData.phone} onChange={handleChange} required />

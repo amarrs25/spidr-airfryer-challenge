@@ -30,7 +30,7 @@
 }
 
 .spidr-form input {
-    width: 94%;
+    width: 374px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 1rem;
@@ -38,7 +38,6 @@
     background: #111;
     border: 1px solid #555;
     color: white;
-    border-radius: 8px;
     font-size: 1rem;
 }
 
@@ -47,25 +46,31 @@
 }
 
 .spidr-form button {
-    background: #479dafe6;
     font-family: 'Raleway', sans-serif;
-    border: none;
+    border: 1px solid white;
     width: 100%;
     padding: 0.75rem;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
+
 .spidr-form button:hover {
-    background: #333333;
+    background-color: #333333;
+    border-top-color: #61dafb;
+    border-bottom-color: #61dafb;
+    border-right-color: #61dafb;
+    border-left-color: #61dafb;
+    color: #61dafb;
 }
 
 .btn {
+    background-color: #333333;
+    color: #61dafb;
+    border-color: white;
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
     font-weight: 400;
     text-align: center;
@@ -74,7 +79,6 @@
     touch-action: manipulation;
     cursor: pointer;
     background-image: none;
-    border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
     font-size: 14px;
@@ -87,7 +91,7 @@
 }
 .btn-line {
     background-color: transparent;
-    border: 1px solid #fff !important;
+    border: 1px solid #fff;
     border-radius: 0 !important;
     color: #fff;
     margin-top: 15px;
