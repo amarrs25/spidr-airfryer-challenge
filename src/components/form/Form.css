@@ -15,6 +15,8 @@
     margin: 50px auto;
     padding: 2rem;
     box-shadow: 0 0 20px #333333;
+    position: relative;
+    z-index: 2;
 }
 
 .spidr-form h2 {
@@ -74,4 +76,38 @@
     border-left-color: #61dafb;
     color: #61dafb;
     transition: 0.3s ease;
+}
+
+.form-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/webbing.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    pointer-events: none;
 }
