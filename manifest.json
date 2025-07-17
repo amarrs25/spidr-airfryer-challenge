@@ -1,0 +1,25 @@
+{
+  "short_name": "Aaron SpidrFryer",
+  "name": "Aaron Marrs Spidr Airfryer Challenge",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "web.gif",
+      "sizes": "500x500",
+      "type": "image/gif"
+    },
+    {
+      "src": "webbing.gif",
+      "sizes": "500x571",
+      "type": "image/gif"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

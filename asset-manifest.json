@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spidr-airfryer-challenge/static/css/main.31716157.css",
+    "main.js": "/spidr-airfryer-challenge/static/js/main.0baec8c6.js",
+    "static/media/webbing.gif": "/spidr-airfryer-challenge/static/media/webbing.c0b8b98bb4d753505d1a.gif",
+    "index.html": "/spidr-airfryer-challenge/index.html",
+    "main.31716157.css.map": "/spidr-airfryer-challenge/static/css/main.31716157.css.map",
+    "main.0baec8c6.js.map": "/spidr-airfryer-challenge/static/js/main.0baec8c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31716157.css",
+    "static/js/main.0baec8c6.js"
+  ]
+}
